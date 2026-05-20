@@ -4,13 +4,13 @@ class SceneMenu extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('BGMenu', 'assets/BG1.png');
-        this.load.image('Title', 'assets/Title.png');
-        this.load.image('ButtonPlay', 'assets/ButtonPlay.png');
-        this.load.image('ButtonSoundOn', 'assets/ButtonSoundOn.png');
-        this.load.image('ButtonSoundOff', 'assets/ButtonSoundOff.png');
-        this.load.audio('music_menu', ['assets/music_menu.mp3']);
-        this.load.audio('snd_touch', ['assets/fx_touch.mp3', 'assets/fx_touch.ogg']);
+        this.load.image('BGMenu', 'assets/images/BG1.png');
+        this.load.image('Title', 'assets/images/Title.png');
+        this.load.image('ButtonPlay', 'assets/images/ButtonPlay.png');
+        this.load.image('ButtonSoundOn', 'assets/images/ButtonSoundOn.png');
+        this.load.image('ButtonSoundOff', 'assets/images/ButtonSoundOff.png');
+        this.load.audio('music_menu', ['assets/audio/music_menu.mp3']);
+        this.load.audio('snd_touch', ['assets/audio/fx_touch.mp3', 'assets/audio/fx_touch.ogg']);
     }
 
     create() {
@@ -96,3 +96,4 @@ class SceneMenu extends Phaser.Scene {
 
     update() {}
 }
+

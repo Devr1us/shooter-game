@@ -4,12 +4,12 @@ class ScenePilihHero extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('BGPilihPesawat', 'assets/BGPilihPesawat.png');
-        this.load.image('Pesawat1', 'assets/Pesawat1.png');
-        this.load.image('Pesawat2', 'assets/Pesawat2.png');
-        this.load.image('ButtonNext', 'assets/ButtonNext.png');
-        this.load.image('ButtonPrev', 'assets/ButtonPrev.png');
-        this.load.image('ButtonMenu', 'assets/ButtonMenu.png');
+        this.load.image('BGPilihPesawat', 'assets/images/BGPilihPesawat.png');
+        this.load.image('Pesawat1', 'assets/images/Pesawat1.png');
+        this.load.image('Pesawat2', 'assets/images/Pesawat2.png');
+        this.load.image('ButtonNext', 'assets/images/ButtonNext.png');
+        this.load.image('ButtonPrev', 'assets/images/ButtonPrev.png');
+        this.load.image('ButtonMenu', 'assets/images/ButtonMenu.png');
     }
 
     create() {
@@ -113,3 +113,4 @@ class ScenePilihHero extends Phaser.Scene {
 
     update() {}
 }
+

@@ -4,11 +4,11 @@ class SceneGameOver extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('BGGameOver', 'assets/BG1.png');
-        this.load.image('ButtonMenu', 'assets/ButtonMenu.png');
-        this.load.image('ButtonPlay', 'assets/ButtonPlay.png');
-        this.load.audio('music_gameover', ['assets/music_gameover.mp3', 'assets/music_gameover.ogg']);
-        this.load.audio('snd_touch', ['assets/fx_touch.mp3', 'assets/fx_touch.ogg']);
+        this.load.image('BGGameOver', 'assets/images/BG1.png');
+        this.load.image('ButtonMenu', 'assets/images/ButtonMenu.png');
+        this.load.image('ButtonPlay', 'assets/images/ButtonPlay.png');
+        this.load.audio('music_gameover', ['assets/audio/music_gameover.mp3', 'assets/audio/music_gameover.ogg']);
+        this.load.audio('snd_touch', ['assets/audio/fx_touch.mp3', 'assets/audio/fx_touch.ogg']);
     }
 
     init(data) {
@@ -145,3 +145,4 @@ class SceneGameOver extends Phaser.Scene {
 
     update() {}
 }
+

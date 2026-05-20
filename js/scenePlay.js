@@ -106,21 +106,21 @@ class ScenePlay extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('BGPlay', 'assets/BGPlay.png');
-        this.load.image('BG2', 'assets/BG2.png');
-        this.load.image('BG3', 'assets/BG3.png');
-        this.load.image('cloud', 'assets/cloud.png');
-        this.load.image('Pesawat1', 'assets/Pesawat1.png');
-        this.load.image('Pesawat2', 'assets/Pesawat2.png');
-        this.load.image('Peluru', 'assets/Peluru.png');
-        this.load.image('Musuh1', 'assets/Musuh1.png');
-        this.load.image('Musuh2', 'assets/Musuh2.png');
-        this.load.image('Musuh3', 'assets/Musuh3.png');
-        this.load.image('MusuhBos', 'assets/MusuhBos.png');
-        this.load.image('EfekLedakan', 'assets/EfekLedakan.png');
-        this.load.audio('snd_shoot', ['assets/fx_shoot.mp3', 'assets/fx_shoot.ogg']);
-        this.load.audio('snd_explode', ['assets/fx_explode.mp3', 'assets/fx_explode.ogg']);
-        this.load.audio('music_play', ['assets/music_play.mp3']);
+        this.load.image('BGPlay', 'assets/images/BGPlay.png');
+        this.load.image('BG2', 'assets/images/BG2.png');
+        this.load.image('BG3', 'assets/images/BG3.png');
+        this.load.image('cloud', 'assets/images/cloud.png');
+        this.load.image('Pesawat1', 'assets/images/Pesawat1.png');
+        this.load.image('Pesawat2', 'assets/images/Pesawat2.png');
+        this.load.image('Peluru', 'assets/images/Peluru.png');
+        this.load.image('Musuh1', 'assets/images/Musuh1.png');
+        this.load.image('Musuh2', 'assets/images/Musuh2.png');
+        this.load.image('Musuh3', 'assets/images/Musuh3.png');
+        this.load.image('MusuhBos', 'assets/images/MusuhBos.png');
+        this.load.image('EfekLedakan', 'assets/images/EfekLedakan.png');
+        this.load.audio('snd_shoot', ['assets/audio/fx_shoot.mp3', 'assets/audio/fx_shoot.ogg']);
+        this.load.audio('snd_explode', ['assets/audio/fx_explode.mp3', 'assets/audio/fx_explode.ogg']);
+        this.load.audio('music_play', ['assets/audio/music_play.mp3']);
     }
 
     create() {
@@ -467,3 +467,4 @@ class ScenePlay extends Phaser.Scene {
         }
     }
 }
+
